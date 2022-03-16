@@ -119,7 +119,7 @@ def connected_components(csgraph, directed=True, connection='weak',
         return n_components, labels
     else:
         return n_components
-
+    //连通的点用相同的数字表示，从0开始计数连通部件
 
 def breadth_first_tree(csgraph, i_start, directed=True):
     r"""
